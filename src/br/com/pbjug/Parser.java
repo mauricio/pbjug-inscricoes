@@ -98,6 +98,8 @@ public class Parser {
 					
 				}
 				
+				parser.close();
+				
 			} catch (Exception e) {
 				throw new IllegalStateException(e);
 			}			
